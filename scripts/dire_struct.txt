@@ -1,0 +1,208 @@
+Folder PATH listing for volume Local Disk
+Volume serial number is BAC0-2CBF
+E:.
+|   create_table.py
+|   dire_struct.txt
+|   drop_table.py
+|   orchestrator.db
+|   README.txt
+|   run_project.bat
+|   testtable.py
+|   
++---agents
+|   |   README.txt
+|   |   
+|   +---ai_models
+|   +---medical_ai
+|   +---predictive_analytics
+|   +---supply_chain_ai
+|   +---utils
+|   \---versioning
++---api_gateway
+|   |   api_gateway_entry.py
+|   |   consumer-test.py
+|   |   README.txt
+|   |   server_config.env
+|   |   __init__.py
+|   |   
+|   +---models
+|   |       best_payment_order_model.pth
+|   |       payment_order_model_main.py
+|   |       requirements.txt
+|   |       
+|   +---routers
+|   |   |   api_gateway_router.py
+|   |   |   
+|   |   \---__pycache__
+|   +---services
+|   |   |   apigw_services.py
+|   |   |   auth_middleware.py
+|   |   |   
+|   |   \---__pycache__
+|   +---utils
+|   \---__pycache__
++---config
+|   |   README.txt
+|   |   
+|   \---env
+|       \---secrets
+|           +---dev
+|           +---prod
+|           \---stage
++---docs
++---etcd-v3.5.13-linux-amd64
+|   |   etcdutl
+|   |   get_all.sh
+|   |   populate_etcd.sh
+|   |   README-etcdctl.md
+|   |   README-etcdutl.md
+|   |   README.md
+|   |   READMEv2-etcdctl.md
+|   |   
+|   \---Documentation
+|       |   README.md
+|       |   
+|       \---dev-guide
+|           \---apispec
+|               \---swagger
+|                       rpc.swagger.json
+|                       v3election.swagger.json
+|                       v3lock.swagger.json
+|                       
++---frontend
+|   |   app.py
+|   |   NewFile
+|   |   README.txt
+|   |   
+|   +---components
+|   +---static
+|   |       script.js
+|   |       style.css
+|   |       
+|   \---templates
+|           index.html
+|           
++---load_balancer
+|   |   README.txt
+|   |   
+|   +---algorithms
+|   \---utils
++---logs
+|   |   README.txt
+|   |   
+|   +---alerts
+|   +---elk_stack
+|   \---prometheus_grafana
++---networking
+|   |   README.txt
+|   |   
+|   +---gateway
+|   +---load_balancer
+|   \---service_discovery
++---orchestrator
+|   |   init_db.py
+|   |   README.txt
+|   |   
+|   +---apiserver
+|   |   |   developer_api.py
+|   |   |   developer_api_v01.py
+|   |   |   README.txt
+|   |   |   
+|   |   \---__pycache__
+|   +---caliconetwork
+|   |       calicoctl
+|   |       calico_setup.py
+|   |       README.txt
+|   |       
+|   +---controller
+|   |   |   controller.py
+|   |   |   README.txt
+|   |   |   
+|   |   \---__pycache__
+|   +---core
+|   |   |   containerd_wrapper.py
+|   |   |   container_client.py
+|   |   |   container_interface.py
+|   |   |   container_main.py
+|   |   |   container_test.py
+|   |   |   README.txt
+|   |   |   
+|   |   \---__pycache__
+|   +---db
+|   |   |   database_query.py
+|   |   |   init_db.py
+|   |   |   README.txt
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   +---models
+|   |   |   core_models.py
+|   |   |   models.py
+|   |   |   README.txt
+|   |   |   support_models.py
+|   |   |   testtable.py
+|   |   |   
+|   |   \---__pycache__
+|   +---registry
+|   |       README.txt
+|   |       service_registry.py
+|   |       
+|   +---scheduler
+|   |       oschedular.py
+|   |       README.txt
+|   |       
+|   +---schema_model
+|   |   |   base.py
+|   |   |   events.py
+|   |   |   mpods.py
+|   |   |   node.py
+|   |   |   README.txt
+|   |   |   workloads.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   +---utils
+|   |       README.txt
+|   |       
+|   \---__pycache__
++---scripts
+|       README.txt
+|       
++---storage
+|   +---postgres
+|   |       README.txt
+|   |       
+|   +---redis
+|   |       README.txt
+|   |       
+|   +---sqlite
+|   |       README.txt
+|   |       
+|   \---test_data
+|           README.txt
+|           
+\---tests
+    |   README.txt
+    |   __init__.py
+    |   
+    +---agents_tests
+    |       README.txt
+    |       
+    +---api_tests
+    |       README.txt
+    |       testapigw.py
+    |       test_api_gateway.ipynb
+    |       __init__.py
+    |       
+    +---frontend_tests
+    |       README.txt
+    |       
+    +---load_tests
+    |       README.txt
+    |       
+    +---orchestrator_tests
+    |       README.txt
+    |       
+    \---test_data
+            README.txt
+            
